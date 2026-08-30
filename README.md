@@ -100,13 +100,13 @@ Calculator.java:
 	"origin": "extHost1"
 
 
-Calculator.java – linija 53	– Use enhanced for loop to iterate over the array	
+Calculator.java – linija 53	– Use enhanced for loop to iterate over the array
 
-Calculator.java – linija 55	– Convert to switch	
+Calculator.java – linija 55	– Convert to switch
 
-Calculator.java – linija 62 –	Unnecessary temporary when converting from String	
+Calculator.java – linija 62 – Unnecessary temporary when converting from String	
 
-Calculator.java – linija 63 –	Can be replaced with multicatch or several catch clauses catching specific exceptions
+Calculator.java – linija 63 – Can be replaced with multicatch or several catch clauses catching specific exceptions
 
 Calculator.java – linija 183 – Unnecessary return statement	
 
