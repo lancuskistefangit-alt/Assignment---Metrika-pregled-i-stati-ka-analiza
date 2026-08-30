@@ -155,3 +155,6 @@ Exception in thread "main" java.lang.AssertionError: Zagrade failed: expected '8
         at CalculatorTest.testZagrade(CalculatorTest.java:44)
         at CalculatorTest.main(CalculatorTest.java:13)
 PS C:\Users\Korisnik\dev\Assignment Calculator> 
+
+
+Kalkulator je case sensitive pri izlazi i ne moze da uzme u obzir redosled operacija koje zahtevaju koriscenje zagrade jer zagrade ne razume kao simbol (nigde nisu definisane).
