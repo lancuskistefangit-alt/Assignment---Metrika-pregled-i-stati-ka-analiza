@@ -10,16 +10,16 @@ Ulaz / Očekivani rezultat/ Dobijeni rezultat / Status
 
 -5-2 / -7 / -7 / pass
 
-3*(-2) / -6 / error / fail
-
 -2*3 / -6 / -6 / pass
-
-2*(2+2) / 8 / error / fail
 
 2+2- / 4 / 4 / pass
 
 10+5*4+3 / 33 /33 / pass
 
-(2*5)+3/(1+2) / 11 / error / fail
+3*(-2) / -6 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati
 
-Nigde u kodu nema definisano koriscenje zagrada
+2*(2+2) / 8 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati
+
+(2*5)+3/(1+2) / 11 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati
+
+
