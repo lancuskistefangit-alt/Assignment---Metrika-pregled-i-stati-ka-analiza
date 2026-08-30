@@ -19,7 +19,7 @@ Total LOC: 214
 
 Neformalan pregled koda:
 
-Calculator.java – linija 13 – Nigde nije definisano sta se desava ako se unesu zagrade (npr 2*(2+2))
+Calculator.java – linija 13 – Nigde nije definisano sta se desava ako se unesu zagrade
 
 Calculator.java – linija 18 – ToString() nije u skladu sa Java konvencijom imenovanja, ali nije funkcionalna greska
 
