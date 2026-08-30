@@ -1,42 +1,44 @@
+Black box test:
+
 Ulaz / Očekivani rezultat/ Dobijeni rezultat / Status
 
-1+2 / 3 / 3 / pass
+1+2 / 3 / 3 / passed
 
-10-5 / 5 / 5 / pass
+10-5 / 5 / 5 / passed
 
-2*4 / 8 / 8 / pass
+2*4 / 8 / 8 / passed
 
-9/3 / 3 / 3 / pass
+9/3 / 3 / 3 / passed
 
--5-2 / -7 / -7 / pass
+-5-2 / -7 / -7 / passed
 
--2*3 / -6 / -6 / pass
+-2*3 / -6 / -6 / passed
 
-2+2- / 4 / 4 / pass
+2+2- / 4 / 4 / passed
 
-10+5*4+3 / 33 /33 / pass
+10+5*4+3 / 33 /33 / passed
 
-3*(-2) / -6 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
+3*(-2) / -6 / error / failed - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
 
-2*(2+2) / 8 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
+2*(2+2) / 8 / error / failed - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
 
-(2*5)+3/(1+2) / 11 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
+(2*5)+3/(1+2) / 11 / error / failed - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
 
-exit / izlaz iz programa / izlaz iz programa / pass
+exit / izlaz iz programa / izlaz iz programa / passed
 
-EXIT / error / error / pass - Ovo bi moglo da se napravi da ne bude case sensititve
+EXIT / error / error / passed - Ovo bi moglo da se napravi da ne bude case sensititve
 
-re / error / error / pass
+re / error / error / passed
 
--re / error / error / pass
-
-
+-re / error / error / passed
 
 
 
 
 
 
+
+Jedinicni test:
 
 public class CalculatorTest {
 
