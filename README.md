@@ -110,3 +110,6 @@ Calculator.java – linija 62 –	Unnecessary temporary when converting from Str
 Calculator.java – linija 63 –	Can be replaced with multicatch or several catch clauses catching specific exceptions
 
 Calculator.java – linija 183 – Unnecessary return statement	
+
+Start.java:
+No problems detected in this workspace
