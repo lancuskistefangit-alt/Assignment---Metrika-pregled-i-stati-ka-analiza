@@ -16,10 +16,9 @@ Ulaz / Očekivani rezultat/ Dobijeni rezultat / Status
 
 10+5*4+3 / 33 /33 / pass
 
-3*(-2) / -6 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati
+3*(-2) / -6 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
 
-2*(2+2) / 8 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati
+2*(2+2) / 8 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
 
-(2*5)+3/(1+2) / 11 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati
-
+(2*5)+3/(1+2) / 11 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
 
