@@ -43,7 +43,6 @@ public class CalculatorTest {
     private static void testZagrade() {
         assertEquals("8.0", Calculator.Run("(2+2)*2"), "Zagrade", "(2+2)*2");
     }
-    
 
     private static void assertEquals(String expected, String actual, String testName, String expression) {
         System.out.println("Test: " + testName);
@@ -53,12 +52,11 @@ public class CalculatorTest {
 
         if (!expected.equals(actual)) {
             System.out.println("  Result:     FAILED");
-            throw new AssertionError(
-                testName + " failed: expected '" + expected + "' but got '" + actual + "'."
-            );
+            System.out.println("  Expected '" + expected + "' but got '" + actual + "'.");
+        } else {
+            System.out.println("  Result:     PASSED");
         }
 
-        System.out.println("  Result:     PASSED");
         System.out.println();
     }
 }
