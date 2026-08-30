@@ -29,3 +29,127 @@ EXIT / error / error / pass - Ovo bi moglo da se napravi da ne bude case sensiti
 re / error / error / pass
 
 -re / error / error / pass
+
+
+
+
+
+
+
+
+
+public class CalculatorTest {
+
+    public static void main(String[] args) {
+        System.out.println("Test");
+        System.out.println();
+
+        testSabiranje();
+        testOduzimanje();
+        testMnozenje();
+        testDeljenje();
+        testNepravilanUnos();
+        testRedosledOperacija();
+        testZagrade();
+
+        System.out.println();
+        System.out.println("Kraj testa");
+    }
+
+    private static void testSabiranje() {
+        assertEquals("5.0", Calculator.Run("2+3"), "Sabiranje", "2+3");
+    }
+
+    private static void testOduzimanje() {
+        assertEquals("2.0", Calculator.Run("5-3"), "Oduzimanje", "5-3");
+    }
+
+    private static void testMnozenje() {
+        assertEquals("12.0", Calculator.Run("3*4"), "Mnozenje", "3*4");
+    }
+
+    private static void testDeljenje() {
+        assertEquals("2.0", Calculator.Run("6/3"), "Deljenje", "6/3");
+    }
+
+    private static void testNepravilanUnos() {
+        assertEquals("ERROR", Calculator.Run("2+a"), "Nepravilan unos", "2+a");
+    }
+
+    private static void testRedosledOperacija() {
+        assertEquals("6.0", Calculator.Run("2+2*2"), "Redosled operacija", "2+2*2");
+    }
+
+    private static void testZagrade() {
+        assertEquals("8.0", Calculator.Run("(2+2)*2"), "Zagrade", "(2+2)*2");
+    }
+    
+
+    private static void assertEquals(String expected, String actual, String testName, String expression) {
+        System.out.println("Test: " + testName);
+        System.out.println("  Expression: " + expression);
+        System.out.println("  Expected:   " + expected);
+        System.out.println("  Actual:     " + actual);
+
+        if (!expected.equals(actual)) {
+            System.out.println("  Result:     FAILED");
+            throw new AssertionError(
+                testName + " failed: expected '" + expected + "' but got '" + actual + "'."
+            );
+        }
+
+        System.out.println("  Result:     PASSED");
+        System.out.println();
+    }
+}
+
+
+
+Test
+
+Test: Sabiranje
+  Expression: 2+3
+  Expected:   5.0
+  Actual:     5.0
+  Result:     PASSED
+
+Test: Oduzimanje
+  Expression: 5-3
+  Expected:   2.0
+  Actual:     2.0
+  Result:     PASSED
+
+Test: Mnozenje
+  Expression: 3*4
+  Expected:   12.0
+  Actual:     12.0
+  Result:     PASSED
+
+Test: Deljenje
+  Expression: 6/3
+  Expected:   2.0
+  Actual:     2.0
+  Result:     PASSED
+
+Test: Nepravilan unos
+  Expression: 2+a
+  Expected:   ERROR
+  Actual:     ERROR
+  Result:     PASSED
+
+Test: Redosled operacija
+  Expression: 2+2*2
+  Expected:   6.0
+  Actual:     6.0
+  Result:     PASSED
+
+Test: Zagrade
+  Expression: (2+2)*2
+  Expected:   8.0
+  Actual:     ERROR
+  Result:     FAILED
+Exception in thread "main" java.lang.AssertionError: Zagrade failed: expected '8.0' but got 'ERROR'.
+        at CalculatorTest.assertEquals(CalculatorTest.java:56)
+        at CalculatorTest.testZagrade(CalculatorTest.java:44)
+        at CalculatorTest.main(CalculatorTest.java:13)
+PS C:\Users\Korisnik\dev\Assignment Calculator> 
