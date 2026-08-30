@@ -19,3 +19,7 @@ Ulaz / Očekivani rezultat/ Dobijeni rezultat / Status
 2+2- / 4 / 4 / pass
 
 10+5*4+3 / 33 /33 / pass
+
+(2*5)+3/(1+2) / 11 / error / fail
+
+Nigde u kodu nema definisano koriscenje zagrada
