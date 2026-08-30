@@ -15,6 +15,8 @@ Comments: 5 lines
 Empty lines: 61 lines
 Total LOC: 214
 
+
+
 Neformalan pregled koda:
 
 Calculator.java – linija 18 – ToString() nije u skladu sa Java konvencijom imenovanja, toString();
