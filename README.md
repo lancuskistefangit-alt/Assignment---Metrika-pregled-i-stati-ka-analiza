@@ -23,7 +23,7 @@ Calculator.java – linija 18 – ToString() nije u skladu sa Java konvencijom i
 
 Calculator.java – linija 24 – Run(String expression) nije u skladu sa Java konvencijom imenovanja
 
-Calculator.java – linija 32 – expression.charAt(0) izaziva grešku ako korisnik ne unese nista
+Calculator.java – linija 32 – expression.charAt(0) izaziva grešku ako korisnik ne unese nista. Ne postoji nista ni u Start.java sto bi ovo sprecilo
 
 Calculator.java – linija 69 – Calculate(numberList, operationList) nije u skladu sa Java konvencijom imenovanja
 
