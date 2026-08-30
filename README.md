@@ -19,15 +19,15 @@ Total LOC: 214
 
 Neformalan pregled koda:
 
-Calculator.java – linija 18 – ToString() nije u skladu sa Java konvencijom imenovanja, malo pocetno slovo
+Calculator.java – linija 18 – ToString() nije u skladu sa Java konvencijom imenovanja, ali nije greska
 
-Calculator.java – linija 24 – Run(String expression) nije u skladu sa Java konvencijom imenovanja, malo pocetno slovo
+Calculator.java – linija 24 – Run(String expression) nije u skladu sa Java konvencijom imenovanja, ali nije greska
 
 Calculator.java – linija 32 – expression.charAt(0) izaziva grešku ako korisnik ne unese nista. Ne postoji nista ni u Calculator.java ni u Start.java sto bi ovo proverilo ili spercilo da se dogodi
 
-Calculator.java – linija 69 – Calculate(numberList, operationList) nije u skladu sa Java konvencijom imenovanja, malo pocetno slovo
+Calculator.java – linija 69 – Calculate(numberList, operationList) nije u skladu sa Java konvencijom imenovanja, ali nije greska
 
-Start.java - linija 6 - String Expression nije u skladu sa Java konvencijom imenovanja, malo pocetno slovo
+Start.java - linija 6 - String Expression nije u skladu sa Java konvencijom imenovanja, ali nije greska
 
 
 Staticka analiza koda (koriscen PMD for Java):
