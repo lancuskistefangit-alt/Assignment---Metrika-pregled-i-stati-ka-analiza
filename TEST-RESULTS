@@ -22,3 +22,6 @@ Ulaz / Očekivani rezultat/ Dobijeni rezultat / Status
 
 (2*5)+3/(1+2) / 11 / error / fail - Nigde u kodu nema definisano koriscenje zagrada, potrebno definisati da bi imalo ocekivanu fuknciju kalkulatora
 
+exit / izlaz iz programa / izlaz iz programa / pass
+
+EXIT / error / error / pass - Ovo bi moglo da se napravi da ne bude case sensititve
