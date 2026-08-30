@@ -146,11 +146,10 @@ Test: Zagrade
   Expected:   8.0
   Actual:     ERROR
   Result:     FAILED
-Exception in thread "main" java.lang.AssertionError: Zagrade failed: expected '8.0' but got 'ERROR'.
-        at CalculatorTest.assertEquals(CalculatorTest.java:56)
-        at CalculatorTest.testZagrade(CalculatorTest.java:44)
-        at CalculatorTest.main(CalculatorTest.java:13)
-PS C:\Users\Korisnik\dev\Assignment Calculator> 
+  Expected '8.0' but got 'ERROR'.
+
+
+Kraj testa
 
 ---------------------------------------------------------------------------------------------------------------
 
