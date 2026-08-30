@@ -35,7 +35,8 @@ Staticka analiza koda (koriscen PMD for Java):
 
 Calculator.java:
 
-	"resource": "/C:/Users/Korisnik/Downloads/Calculator.java",
+
+	"resource": "/C:/Users/Korisnik/dev/Assignment Calculator/Calculator.java",
 	"owner": "_generated_diagnostic_collection_name_#1",
 	"code": "hints(5): 53:9-53:12",
 	"severity": 4,
@@ -48,7 +49,7 @@ Calculator.java:
 	"origin": "extHost1"
 
 
-	"resource": "/C:/Users/Korisnik/Downloads/Calculator.java",
+	"resource": "/C:/Users/Korisnik/dev/Assignment Calculator/Calculator.java",
 	"owner": "_generated_diagnostic_collection_name_#1",
 	"code": "hints(3): 55:13-55:15",
 	"severity": 4,
@@ -61,7 +62,7 @@ Calculator.java:
 	"origin": "extHost1"
 
 
-	"resource": "/C:/Users/Korisnik/Downloads/Calculator.java",
+	"resource": "/C:/Users/Korisnik/dev/Assignment Calculator/Calculator.java",
 	"owner": "_generated_diagnostic_collection_name_#1",
 	"code": "hints(1): 62:36-62:64",
 	"severity": 4,
@@ -74,7 +75,7 @@ Calculator.java:
 	"origin": "extHost1"
 
 
-	"resource": "/C:/Users/Korisnik/Downloads/Calculator.java",
+	"resource": "/C:/Users/Korisnik/dev/Assignment Calculator/Calculator.java",
 	"owner": "_generated_diagnostic_collection_name_#1",
 	"code": "hints(2): 63:26-63:35",
 	"severity": 4,
@@ -87,7 +88,7 @@ Calculator.java:
 	"origin": "extHost1"
 
 
-	"resource": "/C:/Users/Korisnik/Downloads/Calculator.java",
+	"resource": "/C:/Users/Korisnik/dev/Assignment Calculator/Calculator.java",
 	"owner": "_generated_diagnostic_collection_name_#1",
 	"code": "hints(4): 183:13-183:20",
 	"severity": 4,
