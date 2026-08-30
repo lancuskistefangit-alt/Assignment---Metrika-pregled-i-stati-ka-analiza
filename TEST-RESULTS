@@ -25,3 +25,7 @@ Ulaz / Očekivani rezultat/ Dobijeni rezultat / Status
 exit / izlaz iz programa / izlaz iz programa / pass
 
 EXIT / error / error / pass - Ovo bi moglo da se napravi da ne bude case sensititve
+
+re / error / error / pass
+
+-re / error / error / pass
