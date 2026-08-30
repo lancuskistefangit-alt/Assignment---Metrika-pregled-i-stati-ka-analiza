@@ -1,0 +1,21 @@
+Ulaz / Očekivani rezultat/ Dobijeni rezultat / Status
+
+1+2 / 3 / 3 / pass
+
+10-5 / 5 / 5 / pass
+
+2*4 / 8 / 8 / pass
+
+9/3 / 3 / 3 / pass
+
+-5-2 / -7 / -7 / pass
+
+3*(-2) / -6 / error / fail
+
+-2*3 / -6 / -6 / pass
+
+2*(2+2) / 8 / error / fail
+
+2+2- / 4 / 4 / pass
+
+10+5*4+3 / 33 /33 / pass
