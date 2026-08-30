@@ -29,9 +29,6 @@ Calculator.java – linija 69 – Calculate(numberList, operationList) nije u sk
 
 Start.java - linija 6 - String Expression nije u skladu sa Java konvencijom imenovanja, malo pocetno slovo
 
-Start.java - linija 15 - if (Expression.equals("exit")) je case sensitive, moze da se zameni sa if (Expression.equalsIgnoreCase("exit")) 
-
-
 
 Staticka analiza koda (koriscen PMD for Java):
 
